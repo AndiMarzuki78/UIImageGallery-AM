@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>My Personal Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {width: 120px;background: rgb(17, 17, 17);}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+        </style>
+        <body class="w3-black">
+
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="Hypenlogo1.png" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <ion-icon name="home-outline"></ion-icon>
+            <a href="file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM.html#" target="blank"></a>
+            <p>HOME</p>
+        </a>
+        <a href="#THE HYPEN" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <ion-icon name="person-outline"></ion-icon>
+            <a href="file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM2.html" target="_blank"></a>
+            <p>THE HYPEN</p>
+        </a>
+        <a href="#The Hypeners Stories" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-book w3-xxlarge"></i>
+            <ion-icon name="book"></ion-icon>
+            <a href="file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM2.html" target="_blank">
+            <p>THE HYPENERS STORIES</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+        <div class="social-media">
+            <a href="#instagram" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-instagram w3-xxlarge"></i>
+                <a href= ion-icon name="logo-instagram"></ion-icon>
+                <a href="https://www.instagram.com/hypen_education/?hl=en" target=" _blank">
+                <p>FOLLOW US</p>
+                </a>
+            <a href="#linkedin" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-linkedin w3-xxlarge"></i>
+                <a href= ion-icon name="logo-linkedin"></ion-icon>
+                <a href="https://www.linkedin.com/in/andi-armawadjidah-marzuki-30436b57/" target="_blank">
+                <p>CONNECT</p>
+            </a>
+
+        </nav>
+
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+                <a href="file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM.html" ></a>
+            </a>
+            <a href="#THE HYPEN" class="w3-bar-item w3-button" style="width:25% !important">THE HYPEN</a>
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>THE HYPEN</p>
+            <a href= "file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM.html#The%20Hypen"></a>
+
+            <a href="#The Hypeners Stories" class="w3-bar-item w3-button" style="width:25% !important">The Hypeners Stories</a>
+
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-envelope w3-xxlarge"></i>
+                <p>CONTACT</p>
+                <a href="file:///E:/Job%20Apllication%20Docs/ICT40120%20Programming/MySite/MyPersonalBlogAM2.html" target="_blank" ></a>
+        </div>
+        </div>
+        <!-- Testomonials Section -->
+        <div class="w3-padding-64 w3-content" id="photos">
+            <h2 class="w3-text-light-grey">The Hypeners Stories</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <!-- Image Galery and coloum -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+                <img src="friendship (1).jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+                <img src="Blue Kacket Sport venue.jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+                <img src="trainandgirl.jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+            </div>
+            
+            <div class="w3-half">
+                <img src="Korean-Sport Venue Chairs (10).jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+                <img src="red light, boy glasses.jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+                <img src="three people jumping.jpg" style="width:100%">
+                <div class="desc">Add a description of the image here</div>
+                <div class="column">
+                    <h2>Column</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                  </div>
+            </div>
+            
+            <!-- End Image Galery and coloum-->
+            </div>
+        <!-- End Testimonial Section -->
+        </div>
+        </html>
